@@ -15,8 +15,14 @@ quick check so you know you're on track.
 - Java 25 or newer
 - An IDE (I use IntelliJ, but any is fine)
 - A tool that turns a photo into a 3D model and exports GLB. I use
-  [Tripo AI](https://www.tripo3d.ai), but any tool that gives you a GLB file works
+  [Tripo AI](https://studio.tripo3d.ai/home?invite_code=GKXT3W&utm_source=YouTube&utm_medium=kol&utm_campaign=kol_EmbarkX),
+  but any tool that gives you a GLB file works
 - Optional, for AR: an Android phone with a USB cable, or an iPhone plus [ngrok](https://ngrok.com)
+
+If you want to follow along, sign up to
+[Tripo Studio](https://studio.tripo3d.ai/home?invite_code=GKXT3W&utm_source=YouTube&utm_medium=kol&utm_campaign=kol_EmbarkX)
+with my invite code and get 500 bonus credits. And code `GKXT3W` gets you 60% off your first month
+of Pro.
 
 You don't need to install Maven. The project comes with the Maven wrapper (`mvnw`).
 
@@ -59,6 +65,11 @@ Keep the app running in a terminal. After each step, stop it (Ctrl+C) and run it
 ## Step 1: Make the 3D model
 
 I'm using Tripo here. If you use another tool, the export settings are the part that matters.
+
+If you want to follow along, sign up to
+[Tripo Studio](https://studio.tripo3d.ai/home?invite_code=GKXT3W&utm_source=YouTube&utm_medium=kol&utm_campaign=kol_EmbarkX)
+with my invite code and get 500 bonus credits. And code `GKXT3W` gets you 60% off your first month
+of Pro.
 
 1. Open Tripo and pick **Image to 3D**.
 2. Upload the photo from this project: `src/main/resources/static/images/handbag.jpg`.
